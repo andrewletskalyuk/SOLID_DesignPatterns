@@ -25,7 +25,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PointExampleFactoryPattern"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ObjectTrackingAndBulkReplacement_Factory", "ObjectTrackingAndBulkReplacement_Factory\ObjectTrackingAndBulkReplacement_Factory.csproj", "{01FDB184-E9B6-4E93-8582-E5E8E0D21EB4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractFactory", "AbstractFactory\AbstractFactory.csproj", "{EE12622D-1474-4683-8A58-9CFE348AEA44}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbstractFactory", "AbstractFactory\AbstractFactory.csproj", "{EE12622D-1474-4683-8A58-9CFE348AEA44}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeWorkFactory", "HomeWorkFactory\HomeWorkFactory.csproj", "{E2178D48-419B-4FCC-B534-A6DBF22C14E7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PrototypesFactory", "PrototypesFactory", "{D5C308F2-0E7E-4017-B240-628663E5A0EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrototypePattern", "PrototypePattern\PrototypePattern.csproj", "{84888873-F0A0-4213-A18B-1198A503095A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrototypeInheritance_PrototypePattern", "PrototypeInharitance_Prototype\PrototypeInheritance_PrototypePattern.csproj", "{18DE65FD-2BE9-4974-A7D1-0CB0EECDE444}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -73,6 +81,18 @@ Global
 		{EE12622D-1474-4683-8A58-9CFE348AEA44}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EE12622D-1474-4683-8A58-9CFE348AEA44}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EE12622D-1474-4683-8A58-9CFE348AEA44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2178D48-419B-4FCC-B534-A6DBF22C14E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2178D48-419B-4FCC-B534-A6DBF22C14E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2178D48-419B-4FCC-B534-A6DBF22C14E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2178D48-419B-4FCC-B534-A6DBF22C14E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84888873-F0A0-4213-A18B-1198A503095A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84888873-F0A0-4213-A18B-1198A503095A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84888873-F0A0-4213-A18B-1198A503095A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84888873-F0A0-4213-A18B-1198A503095A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18DE65FD-2BE9-4974-A7D1-0CB0EECDE444}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18DE65FD-2BE9-4974-A7D1-0CB0EECDE444}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18DE65FD-2BE9-4974-A7D1-0CB0EECDE444}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18DE65FD-2BE9-4974-A7D1-0CB0EECDE444}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -84,6 +104,9 @@ Global
 		{68B14D39-E483-4E38-9172-0D17C5EB263F} = {D3135979-2233-4956-833B-38E9AA103F30}
 		{01FDB184-E9B6-4E93-8582-E5E8E0D21EB4} = {D3135979-2233-4956-833B-38E9AA103F30}
 		{EE12622D-1474-4683-8A58-9CFE348AEA44} = {D3135979-2233-4956-833B-38E9AA103F30}
+		{E2178D48-419B-4FCC-B534-A6DBF22C14E7} = {D3135979-2233-4956-833B-38E9AA103F30}
+		{84888873-F0A0-4213-A18B-1198A503095A} = {D5C308F2-0E7E-4017-B240-628663E5A0EA}
+		{18DE65FD-2BE9-4974-A7D1-0CB0EECDE444} = {D5C308F2-0E7E-4017-B240-628663E5A0EA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F6E48F89-8ACA-402D-BE78-FDB488C62EE6}
