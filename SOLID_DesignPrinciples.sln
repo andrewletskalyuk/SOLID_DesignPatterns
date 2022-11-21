@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.33027.164
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33110.190
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenClosed_Principle", "Open-Closed_Principle\OpenClosed_Principle.csproj", "{266D9A1E-DF21-419F-8D32-7FE585D49EC8}"
 EndProject
@@ -43,11 +43,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{B1B4B10C
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Singleton", "Singleton", "{53C2B556-998F-4752-A12D-D458F20434E3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingletonImplementation_Pattern", "SingletonImplementation_Pattern\SingletonImplementation_Pattern.csproj", "{BEA74C97-1AE4-4421-8124-BE8A73FE7C4B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SingletonImplementation_Pattern", "SingletonImplementation_Pattern\SingletonImplementation_Pattern.csproj", "{BEA74C97-1AE4-4421-8124-BE8A73FE7C4B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Monostate_SingletonPattern", "Monostate_SingletonPattern\Monostate_SingletonPattern.csproj", "{EB9FAE60-59B5-4F3B-A3C3-70F508E20FD8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Monostate_SingletonPattern", "Monostate_SingletonPattern\Monostate_SingletonPattern.csproj", "{EB9FAE60-59B5-4F3B-A3C3-70F508E20FD8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmbientContext_SingletonPattern", "AmbientContext_SingletonPattern\AmbientContext_SingletonPattern.csproj", "{075932A5-A424-481A-B0ED-99B79F385AEB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AmbientContext_SingletonPattern", "AmbientContext_SingletonPattern\AmbientContext_SingletonPattern.csproj", "{075932A5-A424-481A-B0ED-99B79F385AEB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Adapters", "Adapters", "{A3CF0761-C8CA-42BB-9F31-0669F18015F5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VectorRasterDemo_AdapterPattern", "VectorRasterDemo_AdapterPattern\VectorRasterDemo_AdapterPattern.csproj", "{D4D57AF8-E650-4D4F-BC48-1D8E78F7F018}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StructuralAdapterWithCaching_AdapterPattern", "StructuralAdapterWithCaching_AdapterPattern\StructuralAdapterWithCaching_AdapterPattern.csproj", "{90AA7F80-CCD5-4CA0-97BC-CE33DFF48570}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -127,6 +133,14 @@ Global
 		{075932A5-A424-481A-B0ED-99B79F385AEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{075932A5-A424-481A-B0ED-99B79F385AEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{075932A5-A424-481A-B0ED-99B79F385AEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4D57AF8-E650-4D4F-BC48-1D8E78F7F018}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4D57AF8-E650-4D4F-BC48-1D8E78F7F018}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4D57AF8-E650-4D4F-BC48-1D8E78F7F018}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4D57AF8-E650-4D4F-BC48-1D8E78F7F018}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90AA7F80-CCD5-4CA0-97BC-CE33DFF48570}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90AA7F80-CCD5-4CA0-97BC-CE33DFF48570}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90AA7F80-CCD5-4CA0-97BC-CE33DFF48570}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90AA7F80-CCD5-4CA0-97BC-CE33DFF48570}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -146,6 +160,8 @@ Global
 		{BEA74C97-1AE4-4421-8124-BE8A73FE7C4B} = {53C2B556-998F-4752-A12D-D458F20434E3}
 		{EB9FAE60-59B5-4F3B-A3C3-70F508E20FD8} = {53C2B556-998F-4752-A12D-D458F20434E3}
 		{075932A5-A424-481A-B0ED-99B79F385AEB} = {53C2B556-998F-4752-A12D-D458F20434E3}
+		{D4D57AF8-E650-4D4F-BC48-1D8E78F7F018} = {A3CF0761-C8CA-42BB-9F31-0669F18015F5}
+		{90AA7F80-CCD5-4CA0-97BC-CE33DFF48570} = {A3CF0761-C8CA-42BB-9F31-0669F18015F5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F6E48F89-8ACA-402D-BE78-FDB488C62EE6}
