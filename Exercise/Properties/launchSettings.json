@@ -1,0 +1,14 @@
+{
+  "profiles": {
+    "Exercise": {
+      "commandName": "Project",
+      "nativeDebugging": true
+    },
+    "Profile 1": {
+      "commandName": "Executable",
+      "executablePath": "C:\\Users\\Andrii_Letskaliuk\\source\\repos\\SOLID_DesignPrinciples\\Exercise",
+      "workingDirectory": "C:\\Users\\Andrii_Letskaliuk\\source\\repos\\SOLID_DesignPrinciples\\Exercise",
+      "nativeDebugging": true
+    }
+  }
+}

@@ -1,5 +1,4 @@
-﻿using System;
-using static System.Console;
+﻿using static System.Console;
 
 namespace LiskovSubstitutionPrinciple
 {
@@ -28,14 +27,14 @@ namespace LiskovSubstitutionPrinciple
         {
             set
             {
-                this.Width = Width = value;
+                Width = Width = value;
             }
         }
         public override int Height
         {
             set
             {
-                this.Width = Height = value;
+                Width = Height = value;
             }
         }
     }
