@@ -17,7 +17,7 @@ namespace DotNetDesignPatternDemos.Structural.Adapter.WithCaching
         public Point(int x, int y)
         {
             this.X = x;
-            this.Y = y;
+            this.Y = y; 
         }
 
         protected bool Equals(Point other)
