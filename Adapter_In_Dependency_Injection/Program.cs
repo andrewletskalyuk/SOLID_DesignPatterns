@@ -90,16 +90,14 @@ namespace Adapter_In_Dependency_Injection
             b.RegisterAdapter<Meta<ICommand>, Button>(cmd =>
               new Button(cmd.Value, (string)cmd.Metadata["Name"]));
             b.RegisterType<Editor>();
-            using (var c = b.Build())
-            {
-                var editor = c.Resolve<Editor>();
-                editor.ClickAll();
+            using var c = b.Build();
+            var editor = c.Resolve<Editor>();
+            editor.ClickAll();
 
-                // problem: only one button
+            // problem: only one button
 
-                foreach (var btn in editor.Buttons)
-                    btn.PrintMe();
-            }
+            foreach (var btn in editor.Buttons)
+                btn.PrintMe();
         }
     }
 }
