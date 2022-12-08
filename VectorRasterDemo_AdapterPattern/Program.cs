@@ -4,7 +4,6 @@ using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Linq;
 using MoreLinq;
-using NUnit.Framework;
 using static System.Console;
 
 namespace DotNetDesignPatternDemos.Structural.Adapter.WithCaching
