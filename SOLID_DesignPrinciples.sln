@@ -77,13 +77,23 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Behavioral", "Behavioral", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChainOfResponsibility_with_Mediator", "ChainOfResponsibility_with_Mediator\ChainOfResponsibility_with_Mediator.csproj", "{35B15702-B623-4E3E-B598-38622EE2DE01}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommandPattern", "CommandPattern\CommandPattern.csproj", "{017B2F82-97C8-4833-B64C-BC246C1BE235}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CommandPattern", "CommandPattern\CommandPattern.csproj", "{017B2F82-97C8-4833-B64C-BC246C1BE235}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ExcercisesPractice", "ExcercisesPractice", "{C9A19228-CB35-421D-BB62-39CFF21672C3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommandPractice_01", "CommandPractice_01\CommandPractice_01.csproj", "{845BE46E-1D2B-4160-B4F5-AA901984D85C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CommandPractice_01", "CommandPractice_01\CommandPractice_01.csproj", "{845BE46E-1D2B-4160-B4F5-AA901984D85C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{B952DB33-F671-4A02-A193-65C659745C48}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{B952DB33-F671-4A02-A193-65C659745C48}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Interpreter_BehavioralPattern", "Interpreter_BehavioralPattern\Interpreter_BehavioralPattern.csproj", "{115D8E70-75F3-45CB-8BDB-DDEB631BA975}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Updates_C_Sharp_11", "Updates_C_Sharp_11", "{C46E52C1-E99B-4C19-8F8E-B66FA08B5E7E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "C_11_updates", "C_11_updates\C_11_updates.csproj", "{E6FBA635-2425-4EB8-960B-CB281E437513}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Behavioral_Interpreter_HomeWork", "Behavioral_Interpreter_HomeWork\Behavioral_Interpreter_HomeWork.csproj", "{07AEE9AF-5B25-4751-BBF5-3C2D58158238}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mediator_HomeWork", "Mediator_HomeWork\Mediator_HomeWork.csproj", "{1D29E38F-04BC-41A4-939D-4269A4B29680}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -207,6 +217,22 @@ Global
 		{B952DB33-F671-4A02-A193-65C659745C48}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B952DB33-F671-4A02-A193-65C659745C48}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B952DB33-F671-4A02-A193-65C659745C48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{115D8E70-75F3-45CB-8BDB-DDEB631BA975}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{115D8E70-75F3-45CB-8BDB-DDEB631BA975}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{115D8E70-75F3-45CB-8BDB-DDEB631BA975}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{115D8E70-75F3-45CB-8BDB-DDEB631BA975}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6FBA635-2425-4EB8-960B-CB281E437513}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6FBA635-2425-4EB8-960B-CB281E437513}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6FBA635-2425-4EB8-960B-CB281E437513}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6FBA635-2425-4EB8-960B-CB281E437513}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07AEE9AF-5B25-4751-BBF5-3C2D58158238}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07AEE9AF-5B25-4751-BBF5-3C2D58158238}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07AEE9AF-5B25-4751-BBF5-3C2D58158238}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07AEE9AF-5B25-4751-BBF5-3C2D58158238}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D29E38F-04BC-41A4-939D-4269A4B29680}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D29E38F-04BC-41A4-939D-4269A4B29680}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D29E38F-04BC-41A4-939D-4269A4B29680}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D29E38F-04BC-41A4-939D-4269A4B29680}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -248,6 +274,10 @@ Global
 		{C9A19228-CB35-421D-BB62-39CFF21672C3} = {9AEA5C59-2C7F-4637-BFB3-8B2220D693A6}
 		{845BE46E-1D2B-4160-B4F5-AA901984D85C} = {C9A19228-CB35-421D-BB62-39CFF21672C3}
 		{B952DB33-F671-4A02-A193-65C659745C48} = {C9A19228-CB35-421D-BB62-39CFF21672C3}
+		{115D8E70-75F3-45CB-8BDB-DDEB631BA975} = {9AEA5C59-2C7F-4637-BFB3-8B2220D693A6}
+		{E6FBA635-2425-4EB8-960B-CB281E437513} = {C46E52C1-E99B-4C19-8F8E-B66FA08B5E7E}
+		{07AEE9AF-5B25-4751-BBF5-3C2D58158238} = {C9A19228-CB35-421D-BB62-39CFF21672C3}
+		{1D29E38F-04BC-41A4-939D-4269A4B29680} = {C9A19228-CB35-421D-BB62-39CFF21672C3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F6E48F89-8ACA-402D-BE78-FDB488C62EE6}
