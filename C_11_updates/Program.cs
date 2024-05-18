@@ -27,7 +27,6 @@
             Console.WriteLine(tuple.Item2);
             #endregion
 
-
         }
     }
 }
