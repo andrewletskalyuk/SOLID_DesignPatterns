@@ -1,0 +1,6 @@
+@RedisMQ.Practice_HostAddress = http://localhost:5183
+
+GET {{RedisMQ.Practice_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
