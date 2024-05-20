@@ -111,7 +111,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AsyncAwaitPoo", "AsyncAwait
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Redis", "Redis", "{84F3C75C-D5D1-4021-883B-F37DAB3D8372}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedisMQ.Practice", "RedisMQ.Practice\RedisMQ.Practice.csproj", "{1625C439-3B95-4A06-8B8D-0C71D41E5867}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RedisMQ.Practice", "RedisMQ.Practice\RedisMQ.Practice.csproj", "{1625C439-3B95-4A06-8B8D-0C71D41E5867}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedisCacheExample", "RedisCacheExample\RedisCacheExample.csproj", "{34D6F47E-C8CF-4A35-8297-C7EAFEF9123B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -275,6 +277,10 @@ Global
 		{1625C439-3B95-4A06-8B8D-0C71D41E5867}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1625C439-3B95-4A06-8B8D-0C71D41E5867}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1625C439-3B95-4A06-8B8D-0C71D41E5867}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34D6F47E-C8CF-4A35-8297-C7EAFEF9123B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34D6F47E-C8CF-4A35-8297-C7EAFEF9123B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34D6F47E-C8CF-4A35-8297-C7EAFEF9123B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34D6F47E-C8CF-4A35-8297-C7EAFEF9123B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -326,6 +332,7 @@ Global
 		{308E5B55-21C9-4552-890F-17E1B77DA261} = {5042BA59-9C65-42A8-A6F9-B8C22DEA51C6}
 		{43AE37B9-1F01-40A0-A518-0D78E5B623F9} = {5042BA59-9C65-42A8-A6F9-B8C22DEA51C6}
 		{1625C439-3B95-4A06-8B8D-0C71D41E5867} = {84F3C75C-D5D1-4021-883B-F37DAB3D8372}
+		{34D6F47E-C8CF-4A35-8297-C7EAFEF9123B} = {84F3C75C-D5D1-4021-883B-F37DAB3D8372}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F6E48F89-8ACA-402D-BE78-FDB488C62EE6}

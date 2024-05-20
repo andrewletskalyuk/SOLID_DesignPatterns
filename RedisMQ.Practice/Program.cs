@@ -12,10 +12,13 @@ public class Program
         // Add services to the container.
 
         builder.Services.AddControllers();
-        builder.Services
-            .AddSingleton<IConnectionMultiplexer>
-                (ConnectionMultiplexer.Connect
-                (builder.Configuration.GetConnectionString("Redis")));
+        builder.Services.AddSingleton<IConnectionMultiplexer>(sp =>
+        {
+            var configurationOptions = ConfigurationOptions
+            .Parse(builder.Configuration.GetConnectionString("Redis"), true);
+            configurationOptions.AbortOnConnectFail = false;
+            return ConnectionMultiplexer.Connect(configurationOptions);
+        });
 
         builder.Services.AddSingleton<RedisService>();
 
