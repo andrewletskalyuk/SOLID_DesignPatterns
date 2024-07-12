@@ -59,6 +59,17 @@ public class Program
         // Register SessionService
         builder.Services.AddTransient<SessionService>();
 
+        // Register AnalyticsService
+        builder.Services.AddTransient<AnalyticsService>();
+
+        // Register DistributedLockService
+        builder.Services.AddSingleton<DistributedLockService>(sp =>
+        {
+            var redis = sp.GetRequiredService<IConnectionMultiplexer>();
+            var lockTimeout = TimeSpan.FromSeconds(30); // Set the lock timeout as needed
+            return new DistributedLockService(redis, lockTimeout);
+        });
+
         var app = builder.Build();
 
         // Configure the HTTP request pipeline.
@@ -76,7 +87,6 @@ public class Program
         app.UseHttpsRedirection();
 
         app.UseAuthorization();
-
 
         app.MapControllers();
 

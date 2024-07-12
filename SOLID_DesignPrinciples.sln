@@ -113,7 +113,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Redis", "Redis", "{84F3C75C
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RedisMQ.Practice", "RedisMQ.Practice\RedisMQ.Practice.csproj", "{1625C439-3B95-4A06-8B8D-0C71D41E5867}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedisCacheExample", "RedisCacheExample\RedisCacheExample.csproj", "{34D6F47E-C8CF-4A35-8297-C7EAFEF9123B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RedisCacheExample", "RedisCacheExample\RedisCacheExample.csproj", "{34D6F47E-C8CF-4A35-8297-C7EAFEF9123B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Logic", "Logic", "{F7EE843A-84DC-4BBD-BC12-70919BE6B789}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tople_Logic", "Tople_Logic\Tople_Logic.csproj", "{59D31B6C-9C58-45F7-986E-E660D9C87E0C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -281,6 +285,10 @@ Global
 		{34D6F47E-C8CF-4A35-8297-C7EAFEF9123B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{34D6F47E-C8CF-4A35-8297-C7EAFEF9123B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{34D6F47E-C8CF-4A35-8297-C7EAFEF9123B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59D31B6C-9C58-45F7-986E-E660D9C87E0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59D31B6C-9C58-45F7-986E-E660D9C87E0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59D31B6C-9C58-45F7-986E-E660D9C87E0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59D31B6C-9C58-45F7-986E-E660D9C87E0C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -333,6 +341,7 @@ Global
 		{43AE37B9-1F01-40A0-A518-0D78E5B623F9} = {5042BA59-9C65-42A8-A6F9-B8C22DEA51C6}
 		{1625C439-3B95-4A06-8B8D-0C71D41E5867} = {84F3C75C-D5D1-4021-883B-F37DAB3D8372}
 		{34D6F47E-C8CF-4A35-8297-C7EAFEF9123B} = {84F3C75C-D5D1-4021-883B-F37DAB3D8372}
+		{59D31B6C-9C58-45F7-986E-E660D9C87E0C} = {F7EE843A-84DC-4BBD-BC12-70919BE6B789}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F6E48F89-8ACA-402D-BE78-FDB488C62EE6}
