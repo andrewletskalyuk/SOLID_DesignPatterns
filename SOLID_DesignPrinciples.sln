@@ -119,6 +119,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Logic", "Logic", "{F7EE843A
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tople_Logic", "Tople_Logic\Tople_Logic.csproj", "{59D31B6C-9C58-45F7-986E-E660D9C87E0C}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Kafka", "Kafka", "{478CA173-166B-4DAB-893B-56E156B87CB0}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KafkaProducer", "KafkaProducer\KafkaProducer.csproj", "{B166935C-F0FC-4D3B-AFDC-BF96505974DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KafkaConsumer", "KafkaConsumer\KafkaConsumer.csproj", "{96BBBF21-52F3-44A6-9B0C-27BDE15B6BD8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -289,6 +298,14 @@ Global
 		{59D31B6C-9C58-45F7-986E-E660D9C87E0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{59D31B6C-9C58-45F7-986E-E660D9C87E0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{59D31B6C-9C58-45F7-986E-E660D9C87E0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B166935C-F0FC-4D3B-AFDC-BF96505974DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B166935C-F0FC-4D3B-AFDC-BF96505974DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B166935C-F0FC-4D3B-AFDC-BF96505974DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B166935C-F0FC-4D3B-AFDC-BF96505974DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96BBBF21-52F3-44A6-9B0C-27BDE15B6BD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96BBBF21-52F3-44A6-9B0C-27BDE15B6BD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96BBBF21-52F3-44A6-9B0C-27BDE15B6BD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96BBBF21-52F3-44A6-9B0C-27BDE15B6BD8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -342,6 +359,8 @@ Global
 		{1625C439-3B95-4A06-8B8D-0C71D41E5867} = {84F3C75C-D5D1-4021-883B-F37DAB3D8372}
 		{34D6F47E-C8CF-4A35-8297-C7EAFEF9123B} = {84F3C75C-D5D1-4021-883B-F37DAB3D8372}
 		{59D31B6C-9C58-45F7-986E-E660D9C87E0C} = {F7EE843A-84DC-4BBD-BC12-70919BE6B789}
+		{B166935C-F0FC-4D3B-AFDC-BF96505974DD} = {478CA173-166B-4DAB-893B-56E156B87CB0}
+		{96BBBF21-52F3-44A6-9B0C-27BDE15B6BD8} = {478CA173-166B-4DAB-893B-56E156B87CB0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F6E48F89-8ACA-402D-BE78-FDB488C62EE6}
